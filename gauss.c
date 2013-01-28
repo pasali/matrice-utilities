@@ -95,12 +95,12 @@ void solving(double denk[ROWS][COLS],double sag[ROWS])
 int main()
 {
 
-    double  equations[ROWS][COLS] = {{2, -1, 3, 4},
-                                      {1, 0, -2, 7},
-                                      {3, -3, 1, 5},
-                                      {2, 1, 4, 4},
+    double  equations[ROWS][COLS] = {{1, 0, -2,3 },
+                                      {2,3, -4, 1},
+                                      {3, 0, -2, 4},
+                                      {0, 1, 4, 5},
 				                      };
-    double rightside[ROWS] = {9, 11, 8, 10};
+    double rightside[ROWS] = {4, 6, 0, 8};
     gauss(equations, rightside);
     solving(equations, rightside);
 
