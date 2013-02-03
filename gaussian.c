@@ -103,5 +103,5 @@ int main()
     double rightside[ROWS] = {4, 6, 0, 8};
     gauss(equations, rightside);
     solving(equations, rightside);
-
+    return 0;
 }
