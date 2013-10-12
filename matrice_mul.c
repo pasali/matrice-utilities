@@ -56,7 +56,7 @@ static void print_matrice(void)
 
         for (i = 0; i < N; i++) {
                 for (j = 0; j < N; j++) {
-                        printf("%d ", matrice_c[i][j]);
+                        printf("%d  ", matrice_c[i][j]);
                 }
                 printf("\n");
         }
