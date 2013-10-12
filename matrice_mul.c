@@ -5,7 +5,7 @@
 
 #define N 100
 #define RANDOM_RANGE 100000
-#define NTHREAD 10
+#define NTHREAD 10 
 #define VECTOR_LENGTH_PER_THREAD (N/NTHREAD)
 
 static int matrice_a[N][N];
