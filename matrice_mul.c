@@ -15,7 +15,6 @@ static pthread_mutex_t mutex_matrice_mul;
 
 static void init(void)
 {
-
         int i, j;
 
         for (i = 0; i < N; i++) {
@@ -66,7 +65,6 @@ static void print_matrice(void)
 int main(void)
 {
         uintptr_t i;
-
         pthread_t threads[NTHREAD];
         init();
         pthread_mutex_init(&mutex_matrice_mul, NULL);
